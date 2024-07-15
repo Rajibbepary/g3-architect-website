@@ -237,8 +237,22 @@ main > section{
 
 .features-rkt img{
     width:100% ;
+    margin-top: 200px;
 }
 
+.footer{
+    margin-top: 100PX;
+    height: 80px;
+    width: auto;
+     text-align: center; 
+    background-color: #FFF4E7;
+    padding: 20px;
+}
+.footer-div{
+    margin-top: 40px;
+    color:#727272;
+    font-size: 1.25rem;
+}
 
 /* responsive media qurey */
 
