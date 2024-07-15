@@ -223,12 +223,27 @@ main > section{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+#Experience-bedg{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.Experience-years{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.features-rkt img{
+    width:100% ;
+}
 
 
 /* responsive media qurey */
 
 @media screen and (max-width: 576px){
-    .navbar, .nav-links,.teams{
+    .navbar, .nav-links,.teams,.features{
         flex-direction: column;
     }
 
@@ -253,6 +268,12 @@ main > section{
 .our-features{
     margin-left: 20px;
 }
+
+#Experience-bedg{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 }
 
 
@@ -261,7 +282,7 @@ main > section{
 /* medium size devies */
 
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams,.features{
         flex-direction: column;
     }
     .our-features{
@@ -271,5 +292,9 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-content: center;
+    }
+    #Experience-bedg{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
